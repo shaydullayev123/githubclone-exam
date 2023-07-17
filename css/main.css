@@ -1,0 +1,372 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background: #121414;
+}
+footer hr {
+  color: aliceblue;
+  background: #121414 !important;
+  border: 1px solid #fff;
+  margin: 0;
+  justify-content: center !important;
+}
+footer .footer {
+  padding: 20px 0;
+  display: flex;
+  align-items: center !important;
+}
+footer .footer .logo {
+  padding-top: 20px;
+}
+footer .footer .logo p {
+  color: #808080;
+}
+footer .footer .links {
+  align-items: center;
+}
+footer .footer .links a {
+  text-decoration: none;
+  padding-right: 35px;
+}
+
+.nav-1 {
+  background: #010409 !important;
+  color: #e6edf3;
+}
+.nav-1 .left-side {
+  gap: 0.5rem, 8px !important;
+}
+.nav-1 .left-side .btn-burger {
+  padding: 8px;
+  background: rgb(244, 238, 238);
+  border: 1px solid black;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+}
+.nav-1 .left-side .img-logo {
+  height: 42px;
+  width: 42px;
+  border-radius: 55%;
+}
+.nav-1 .right-side {
+  gap: 10px !important;
+  align-items: center !important;
+}
+.nav-1 .right-side .btn-plus {
+  display: flex;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 7px;
+  padding-top: 6px !important;
+}
+.nav-1 .right-side .btn-plus .Button-content {
+  display: flex;
+}
+.nav-1 .right-side .btn-issues {
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6px !important;
+  padding-bottom: 7px !important;
+}
+.nav-1 .right-side .btn-pulls {
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6px !important;
+  padding-bottom: 7px !important;
+}
+.nav-1 .right-side .btn-notice {
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  top: 10px !important;
+  padding-top: 6px !important;
+  padding-bottom: 30px !important;
+}
+.nav-1 .right-side .avatar {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.nav-2 {
+  background: #010409 !important;
+  color: #e6edf3 !important;
+}
+.nav-2 .nav-tabs {
+  border: none !important;
+}
+.nav-2 ul {
+  align-items: center;
+  justify-content: start;
+  list-style: none;
+  border: none !important;
+}
+.nav-2 ul .active {
+  background: #010409 !important;
+  border: none !important;
+  background: #3d3f44;
+  border-bottom: 2px solid orange !important;
+}
+.nav-2 ul button {
+  align-items: center;
+  color: #fff !important;
+  border: none !important;
+  padding: 0 15px !important;
+  transition: all 0.2s;
+}
+.nav-2 ul button:hover {
+  border: none !important;
+  background: #383c43 !important;
+  border-bottom: 2px solid orange !important;
+}
+.nav-2 ul button svg {
+  margin-right: 5px;
+  height: 30px !important;
+  padding: 0;
+  width: 20px !important;
+}
+
+main {
+  height: 90vh;
+}
+main .main .profile-side {
+  margin-bottom: 30px;
+}
+main .main .profile-side img {
+  margin-left: 60px;
+  width: 370px !important;
+  border-radius: 50% !important;
+  margin-bottom: 60px;
+  margin-top: 50px;
+  padding-left: 0 !important;
+}
+main .main .profile-side h4 {
+  font-size: 25px;
+  padding-left: 60px;
+  margin-top: -50px;
+  color: #7d8590;
+}
+main .main .profile-side p {
+  padding-top: 45px;
+  font-size: 15px !important;
+}
+main .main .profile-side .bioProfile {
+  padding-right: 10px !important;
+}
+main .main .profile-side .edit-profile {
+  padding: 5px 145px;
+  margin-left: 60px;
+  border-radius: 6px;
+  border: 1px solid #212525;
+  background: #363c3c;
+  color: #c1c1c1;
+  margin-bottom: 30px;
+  display: block;
+}
+main .main .profile-side .edit-profile:hover {
+  background: #495050;
+  border-color: #919595;
+}
+main .main .profile-side a {
+  text-decoration: none;
+  color: #7d8590;
+  padding-left: 10px;
+}
+main .main .profile-side a span {
+  color: #fff;
+}
+main .main .profile-side .a-1 {
+  padding-left: 60px;
+}
+main .main .action-side {
+  width: 840px;
+}
+main .main .action-side .header-text h4 {
+  color: #fff;
+  margin-bottom: 8px;
+  margin-top: 40px;
+}
+main .main .action-side .header-text p {
+  color: #656363;
+  margin-bottom: 8px;
+  margin-top: 40px;
+}
+main .main .action-side .cards .card {
+  background: #131416;
+  width: 410px;
+  padding: 15px;
+  border: 1px solid #5f5959;
+  color: #fff;
+  height: 123px;
+  margin-left: 10px !important;
+}
+main .main .action-side .cards .card .text-line-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .main .action-side .cards .card .text-line-1 a {
+  display: block;
+  text-decoration: none;
+}
+main .main .action-side .cards .card .text-line-1 span {
+  border: 1px solid #959595;
+  border-radius: 10px;
+  padding: 1px 5px;
+  font-size: 12px;
+  color: #888686;
+}
+main .main .action-side .cards .card .text-line-2 {
+  height: 37px;
+}
+main .main .action-side .cards .card .text-line-2 p {
+  font-size: 14px;
+  color: #808080;
+}
+main .main .action-side .cards .card .text-line-3 p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 0;
+  height: 24px;
+}
+main .main .action-side .cards .card .text-line-3 p .signOflang {
+  display: flex;
+  height: 12px !important;
+  width: 12px !important;
+  background: #e34c26;
+  border-radius: 50%;
+}
+
+main {
+  background: #121414;
+  height: 80vh;
+}
+main .main .profile-side {
+  padding-bottom: 30px;
+}
+main .main .profile-side img {
+  padding-left: 60px;
+  width: 430px;
+  border-radius: 30%;
+}
+main .main .profile-side p {
+  font-size: 25px;
+  padding-left: 60px;
+  margin-top: -50px;
+  color: #7d8590;
+}
+main .main .profile-side .edit-profile {
+  padding: 5px 145px;
+  margin-left: 60px;
+  border-radius: 6px;
+  border: 1px solid #212525;
+  background: #363c3c;
+  color: #c1c1c1;
+  margin-bottom: 30px;
+  display: block;
+}
+main .main .profile-side .edit-profile:hover {
+  background: #495050;
+  border-color: #919595;
+}
+main .main .profile-side a {
+  text-decoration: none;
+  color: #7d8590;
+  padding-left: 10px;
+}
+main .main .profile-side a span {
+  color: #fff;
+}
+main .main .profile-side .a-1 {
+  padding-left: 60px;
+}
+main .main .repos-side {
+  width: 840px;
+  margin-top: 30px;
+}
+main .main .repos-side .find-repos input {
+  width: 450px;
+  border-radius: 6px;
+  padding-left: 10px;
+  color: #808080;
+  background: #121313;
+  border: 1px solid #767474;
+}
+main .main .repos-side .find-repos .dropdown button {
+  background: #292c2c !important;
+}
+main .main .repos-side .find-repos .new-repos {
+  background: green;
+  padding: 0 10px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+}
+main .main .repos-side .repos-list .repos-card hr {
+  color: #fff;
+}
+main .main .repos-side .repos-list .repos-card .title {
+  display: flex;
+}
+main .main .repos-side .repos-list .repos-card .title .title-left a {
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 10px;
+}
+main .main .repos-side .repos-list .repos-card .title .title-left span {
+  border: 1px solid #7e7c7c;
+  border-radius: 10px;
+  padding: 0.5px 5px;
+  font-size: 12px;
+  color: #a29e9e;
+}
+main .main .repos-side .repos-list .repos-card .title .title-right button {
+  background: #292c2c !important;
+}
+main .main .repos-side .repos-list .repos-card .title .title-right button span {
+  padding-right: 5px;
+}
+main .main .repos-side .repos-list .repos-card .description {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .main .repos-side .repos-list .repos-card .description .des-left {
+  display: flex;
+  align-items: center;
+  color: #a29e9e;
+}
+main .main .repos-side .repos-list .repos-card .description .des-left .signOflang {
+  display: flex;
+  height: 12px !important;
+  width: 12px !important;
+  background: #e34c26;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+main .main .repos-side .repos-list .repos-card .description .des-left span {
+  font-size: 12px;
+}
+main .main .repos-side .repos-list .repos-card .description .des-left .time {
+  padding-left: 20px;
+}
+main .main .repos-side .repos-list .repos-card .description .des-right span {
+  display: flex;
+  width: 150px !important;
+  color: green;
+  height: 2px !important;
+  background: rgb(0, 95, 0);
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,29 @@
+footer {
+  background: #121414;
+
+  hr {
+    color: aliceblue;
+    background: #121414 !important;
+    border: 1px solid #fff;
+    margin: 0;
+    justify-content: center !important;
+  }
+  .footer {
+    padding: 20px 0;
+    display: flex;
+    align-items: center !important;
+    .logo {
+      padding-top: 20px;
+      p {
+        color: #808080;
+      }
+    }
+    .links {
+      align-items: center;
+      a {
+        text-decoration: none;
+        padding-right: 35px;
+      }
+    }
+  }
+}

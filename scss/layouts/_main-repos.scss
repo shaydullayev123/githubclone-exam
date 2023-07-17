@@ -1,0 +1,165 @@
+main {
+  background: #121414;
+  height: 80vh;
+
+  .main {
+    .profile-side {
+      padding-bottom: 30px;
+
+      img {
+        padding-left: 60px;
+        width: 430px;
+        border-radius: 30%;
+      }
+
+      p {
+        font-size: 25px;
+        padding-left: 60px;
+        margin-top: -50px;
+        color: #7d8590;
+      }
+
+      .edit-profile {
+        padding: 5px 145px;
+        margin-left: 60px;
+        border-radius: 6px;
+        border: 1px solid #212525;
+        background: #363c3c;
+        color: #c1c1c1;
+        margin-bottom: 30px;
+        display: block;
+
+        &:hover {
+          background: #495050;
+          border-color: #919595;
+        }
+      }
+
+      a {
+        // padding-left: 60px;
+        text-decoration: none;
+        color: #7d8590;
+        padding-left: 10px;
+
+        span {
+          color: #fff;
+        }
+      }
+
+      .a-1 {
+        padding-left: 60px;
+      }
+    }
+
+    .repos-side {
+      width: 840px;
+      margin-top: 30px;
+
+      .find-repos {
+        input {
+          width: 450px;
+          border-radius: 6px;
+          padding-left: 10px;
+          color: #808080;
+          background: #121313;
+          border: 1px solid #767474;
+        }
+        .dropdown {
+          button {
+            background: #292c2c !important;
+          }
+        }
+        .new-repos {
+          background: green;
+          padding: 0 10px;
+          border-radius: 6px;
+          border: none;
+          color: #fff;
+        }
+      }
+
+      .repos-list {
+        .repos-card {
+          hr {
+            color: #fff;
+          }
+          .title {
+            display: flex;
+
+            .title-left {
+              // gap: 10px;
+              a {
+                // display: block;
+                text-decoration: none;
+                font-size: 20px;
+                padding-right: 10px;
+              }
+
+              span {
+                border: 1px solid #7e7c7c;
+                border-radius: 10px;
+                padding: 0.5px 5px;
+                font-size: 12px;
+                color: #a29e9e;
+              }
+            }
+
+            .title-right {
+              button {
+                background: #292c2c !important;
+                // height: 35px !important;
+                // align-items: center;
+
+                span {
+                  padding-right: 5px;
+                  //   font-size: 12px;
+                  //   padding-bottom: 15px !important;
+                }
+              }
+            }
+          }
+
+          .description {
+            padding-bottom: 20px;
+            padding-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .des-left {
+              display: flex;
+              align-items: center;
+              color: #a29e9e;
+
+              .signOflang {
+                display: flex;
+                height: 12px !important;
+                width: 12px !important;
+                background: #e34c26;
+                border-radius: 50%;
+                margin-right: 5px;
+              }
+
+              span {
+                font-size: 12px;
+              }
+
+              .time {
+                padding-left: 20px;
+              }
+            }
+
+            .des-right {
+              span {
+                display: flex;
+                width: 150px !important;
+                color: green;
+                height: 2px !important;
+                background: rgb(0, 95, 0);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

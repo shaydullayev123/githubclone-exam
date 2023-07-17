@@ -1,0 +1,138 @@
+main {
+  // background: #121414;
+  height: 90vh;
+
+  .main {
+    .profile-side {
+      margin-bottom: 30px;
+
+      img {
+        // display: flex;
+        margin-left: 60px;
+        width: 370px !important;
+        border-radius: 50% !important;
+        margin-bottom: 60px;
+        margin-top: 50px;
+        padding-left: 0 !important;
+      }
+
+      h4 {
+        font-size: 25px;
+        padding-left: 60px;
+        margin-top: -50px;
+        color: #7d8590;
+      }
+
+      p {
+        padding-top: 45px;
+        font-size: 15px !important;
+      }
+
+      .bioProfile {
+        padding-right: 10px !important;
+      }
+
+      .edit-profile {
+        padding: 5px 145px;
+        margin-left: 60px;
+        border-radius: 6px;
+        border: 1px solid #212525;
+        background: #363c3c;
+        color: #c1c1c1;
+        margin-bottom: 30px;
+        display: block;
+
+        &:hover {
+          background: #495050;
+          border-color: #919595;
+        }
+      }
+
+      a {
+        // padding-left: 60px;
+        text-decoration: none;
+        color: #7d8590;
+        padding-left: 10px;
+
+        span {
+          color: #fff;
+        }
+      }
+
+      .a-1 {
+        padding-left: 60px;
+      }
+    }
+
+    .action-side {
+      width: 840px;
+      .header-text {
+        h4 {
+          color: #fff;
+          margin-bottom: 8px;
+          margin-top: 40px;
+        }
+        p {
+          color: #656363;
+          margin-bottom: 8px;
+          margin-top: 40px;
+        }
+      }
+
+      .cards {
+        .card {
+          background: #131416;
+          width: 410px;
+          padding: 15px;
+          border: 1px solid #5f5959;
+          color: #fff;
+          height: 123px;
+          margin-left: 10px !important;
+
+          .text-line-1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            a {
+              display: block;
+              text-decoration: none;
+            }
+
+            span {
+              border: 1px solid #959595;
+              border-radius: 10px;
+              padding: 1px 5px;
+              font-size: 12px;
+              color: #888686;
+            }
+          }
+
+          .text-line-2 {
+            height: 37px;
+            p {
+              font-size: 14px;
+              color: #808080;
+            }
+          }
+
+          .text-line-3 {
+            p {
+              display: flex;
+              align-items: center;
+              gap: 5px;
+              margin-bottom: 0;
+              height: 24px;
+              .signOflang {
+                display: flex;
+                height: 12px !important;
+                width: 12px !important;
+                background: #e34c26;
+                border-radius: 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

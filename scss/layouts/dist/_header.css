@@ -1,0 +1,98 @@
+header .nav-1 {
+  background: #010409 !important;
+  color: #e6edf3;
+}
+header .nav-1 .left-side {
+  gap: 0.5rem, 8px !important;
+}
+header .nav-1 .left-side .btn-burger {
+  padding: 8px;
+  background: #f4eeee;
+  border: 1px solid black;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+}
+header .nav-1 .left-side .img-logo {
+  height: 42px;
+  width: 42px;
+  border-radius: 55%;
+}
+header .nav-1 .right-side {
+  gap: 10px !important;
+  align-items: center !important;
+}
+header .nav-1 .right-side .bi-search {
+  width: 48px !important;
+  background: #fff;
+  height: 20px;
+  border-radius: 6px;
+  border-right: none;
+  color: #010409;
+  position: absolute;
+  top: 20px;
+}
+header .nav-1 .right-side .btn-plus {
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+header .nav-1 .right-side .btn-issues {
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+}
+header .nav-1 .right-side .btn-pulls {
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+}
+header .nav-1 .right-side .btn-notice {
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  top: 10px !important;
+}
+header .nav-1 .right-side .avatar {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+header .nav-2 {
+  background: #010409 !important;
+  color: #e6edf3 !important;
+}
+header .nav-2 .nav-tabs {
+  border: none !important;
+}
+header .nav-2 ul {
+  align-items: center;
+  justify-content: start;
+  list-style: none;
+  border: none !important;
+}
+header .nav-2 ul .active {
+  background: #010409 !important;
+  border: none !important;
+  background: #3d3f44;
+  border-bottom: 2px solid orange !important;
+}
+header .nav-2 ul button {
+  align-items: center;
+  color: #fff !important;
+  border: none !important;
+  padding: 0 15px !important;
+  transition: all 0.2s;
+}
+header .nav-2 ul button:hover {
+  border: none !important;
+  background: #383c43 !important;
+  border-bottom: 2px solid orange !important;
+}
+header .nav-2 ul button svg {
+  margin-right: 5px;
+  height: 30px !important;
+  padding: 0;
+  width: 20px !important;
+}
